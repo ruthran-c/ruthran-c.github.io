@@ -31,7 +31,7 @@ url: "https://www.ruthran.net"
 github:
   username: ruthran-c # change to your github username
 
-twitter:
+# twitter:
 #  username: twitter_username # change to your twitter username
 
 social:
@@ -76,7 +76,7 @@ theme_mode: # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: /assets/lib/headshot.png
 
 # boolean type, the global switch for TOC in posts.
 toc: true
