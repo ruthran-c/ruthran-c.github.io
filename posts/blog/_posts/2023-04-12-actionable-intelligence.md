@@ -8,7 +8,7 @@ tags: []     # TAG names should always be lowercase
 I've noticed that actionable intelligence can go a long way in improving our complicated healthcare system. 
 
 Specifically in perioperative care:
-- Predicting the block utilization of doctors (or service lines) can help allocate more OR resources to those in demand
+- Predicting the block uti lization of doctors (or service lines) can help allocate more OR resources to those in demand
     - This results in lesser wait times for elective surgeries
 - Better staffing optimization tells us exactly how many nurses we need vs. how many we have scheduled.
     - This helps managers plan the day and alleviate any overworking situations.
