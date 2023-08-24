@@ -1,6 +1,6 @@
 ---
 title: Ellipsis the great placeholder...
-date: 2023-08-25
+#date: 2023-08-25 
 categories: [Snippets, Recall]
 tags: [python]
 ---
