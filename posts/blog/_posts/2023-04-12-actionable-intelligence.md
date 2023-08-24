@@ -1,7 +1,7 @@
 ---
 title: The power of actionable intelligence through AI
 date: 2023-04-12 00:00:00 +/-TTTT
-categories: [blog]
+categories: [Blog]
 tags: []     # TAG names should always be lowercase
 ---
 
