@@ -19,6 +19,6 @@ plt.fill_between(hour, y_lower, y_upper, alpha=0.2)
 plt.show()
 ```
 
-![error as shaded region in time series plot](/assets/snippets/img/20230820-colorShade.png){: .light}
-![error as shaded region in time series plot](/assets/snippets/img/20230824-colorShade.png){: .dark}
+![error as shaded region in time series plot](20230820-colorShade.png){: .light}
+![error as shaded region in time series plot](20230824-colorShade-dark1.png){: .dark}
 _Time series plot with shaded error region_
