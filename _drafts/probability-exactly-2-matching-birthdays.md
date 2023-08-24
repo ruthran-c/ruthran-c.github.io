@@ -1,6 +1,6 @@
 ---
 title: Probability of "ONLY" 2 people in a group with matching birthdays
-date: 2023-08-24 08:00:00 +/-TTTT
+date: 
 categories: [Problem Set, Math]
 tags: [math, probability]
 ---
