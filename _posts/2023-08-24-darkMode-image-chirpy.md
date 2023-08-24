@@ -1,7 +1,7 @@
 ---
 title: Customize a dark mode image for Chirpy Jekyll pages
 date: 2023-08-24 10:14:00 +/-TTTT
-categories: [Snippets]
+categories: [Snippets, Code]
 tags: [code, python, plots]
 ---
 

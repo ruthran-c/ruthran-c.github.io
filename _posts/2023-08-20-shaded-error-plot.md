@@ -1,7 +1,7 @@
 ---
 title: Time series plot with shaded error region
 date: 2023-08-20 16:00:00 +/-TTTT
-categories: [Snippets]
+categories: [Snippets, Code]
 tags: [code, python, plots]
 ---
 
