@@ -6,7 +6,7 @@ tags: [code, python, plots]
 ---
 
 ## Background
-Currently, the Chirpy template allows you to input 2 separate images in posts and
+The Chirpy template allows you to input 2 separate images in posts and
 be able to display only the image that corresponds to the light/ dark mode currently set.
 
 You can do this by adding a **block IAL** to the image block with
@@ -29,12 +29,12 @@ Customize image settings in Python that seamlessly produces dark mode images for
 fig = plt.figure(facecolor=(.27,.27,.3))
 plt.style.use('dark_background')
 
-# ...
+...
 
 ax = plt.subplot()
 ax.set_facecolor((.44, .45, .45))
 
-# ...
+...
 
 plt.show()
 ```
