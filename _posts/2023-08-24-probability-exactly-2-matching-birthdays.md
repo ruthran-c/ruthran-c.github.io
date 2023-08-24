@@ -1,6 +1,6 @@
 ---
 title: Probability of "ONLY" 2 people in a group with matching birthdays
-date: 2023-08-24 08:25:00 +/-TTTT
+date: 2023-08-24 08:00:00 +/-TTTT
 categories: [Solve_This!]
 tags: [math, probability]
 ---
