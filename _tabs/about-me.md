@@ -8,4 +8,6 @@ order: 4
 so bear with me for a bit. 🙌
 {: .prompt-warning }
 
-Hi there! Thank you for checking out my site.
+Hi there! 👋 
+
+Thank you for checking out my site.
