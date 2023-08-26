@@ -8,4 +8,4 @@ order: 4
 so bear with me for a bit. 🙌
 {: .prompt-warning }
 
-Data Scientist.
+Hi there! Thank you for checking out my site.
