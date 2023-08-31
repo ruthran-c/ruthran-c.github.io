@@ -2,7 +2,7 @@
 title: Convert Ragged Nested Sequences to MultiIndex Pandas DataFrame
 categories: [Snippets, Code]
 date: 2023-08-31 23:43:00 +0530
-tags: [python]
+tags: [python, pandas]
 ---
 
 ## What's a Ragged Nested Sequence? 
