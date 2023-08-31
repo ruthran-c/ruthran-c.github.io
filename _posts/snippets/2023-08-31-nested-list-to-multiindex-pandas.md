@@ -80,7 +80,7 @@ data = data.set_index(['outer', 'inner'])
 
 ## Final Thoughts
 If you code in `df.index`, you get a MultiIndex output:
-```
+```output
 MultiIndex([('split1', 0),
             ('split1', 1),
             ('split1', 2),
