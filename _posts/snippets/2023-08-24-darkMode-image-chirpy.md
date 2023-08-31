@@ -1,6 +1,6 @@
 ---
 title: Dark-Mode Images for Chirpy Jekyll Pages
-date: 2023-08-23 10:14:00 +/-TTTT
+date: 2023-08-23 10:14:00 +0530
 categories: [Snippets, Code]
 tags: [code, python, plots]
 ---
