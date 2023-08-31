@@ -1,6 +1,5 @@
 ---
 title: Probability of "ONLY" 2 people in a group with matching birthdays
-date: 
 categories: [Problem Set, Math]
 tags: [math, probability]
 ---

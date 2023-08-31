@@ -1,6 +1,5 @@
 ---
 title: Ellipsis the great placeholder...
-date: 
 categories: [Snippets, Recall]
 tags: [python]
 ---
