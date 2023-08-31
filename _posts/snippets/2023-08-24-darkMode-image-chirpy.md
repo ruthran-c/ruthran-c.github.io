@@ -1,5 +1,5 @@
 ---
-title: Customize a dark mode image for Chirpy Jekyll pages
+title: Dark-Mode Images for Chirpy Jekyll Pages
 date: 2023-08-23 10:14:00 +/-TTTT
 categories: [Snippets, Code]
 tags: [code, python, plots]
@@ -16,6 +16,7 @@ either `:light` or `:dark`.
 ![Light mode only](/path/to/light-mode.png){: .light }
 ![Dark mode only](/path/to/dark-mode.png){: .dark }
 ```
+{: .nolineno}
 
 ## Goal
 Customize image settings in Python that seamlessly produces dark mode images for Chirpy.
@@ -38,6 +39,7 @@ ax = plt.subplot()
 
 plt.show()
 ```
+{: .nolineno}
 
 ## Final plot
 You get a plot that seamlessly merges into the background while the facecolor between the axes

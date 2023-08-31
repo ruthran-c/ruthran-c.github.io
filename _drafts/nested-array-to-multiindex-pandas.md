@@ -1,5 +1,5 @@
 ---
-title: Converting a dataset of nested arrays to MultiIndex Pandas DataFrames
+title: Convert Multidimensional Arrays to MultiIndex Pandas DataFrame
 categories: [Snippets, Code]
 tags: [python]
 ---

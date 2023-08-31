@@ -1,5 +1,5 @@
 ---
-title: View Jekyll drafts and future posts
+title: View Jekyll Drafts and Future Posts
 date: 2023-08-25 00:05:00 +0530
 categories: [Snippets, Recall]
 tags: [jekyll, code]
@@ -35,3 +35,4 @@ My current `serve` command looks like this:
 ```zsh
 bundle exec jekyll s --port 4002 --drafts --future
 ```
+{: .nolineno}

@@ -1,5 +1,5 @@
 ---
-title: Time series plot with shaded error region
+title: Time Series Plot with Shaded Error Region
 date: 2023-08-20 16:00:00 +/-TTTT
 categories: [Snippets, Code]
 tags: [code, python, plots]
@@ -18,6 +18,7 @@ y_lower = [i - (i * 0.15) for i in viewers_hour]
 plt.fill_between(hour, y_lower, y_upper, alpha=0.2)
 plt.show()
 ```
+{: .nolineno }
 
 ![error as shaded region in time series plot](20230820-colorShade.png){: .light}
 ![error as shaded region in time series plot](20230824-colorShade-dark1.png){: .dark}
