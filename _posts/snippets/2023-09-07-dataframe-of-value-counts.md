@@ -78,6 +78,9 @@ but just for a visual review.
 | 9 | NaN | NaN | NaN | NLD - 2104 | NaN | NaN | L - 6 | K - 279 | NaN | 8.0 - 1514 | 405.0 - 119 | NaN | NaN |
 | 10 | NaN | NaN | NaN | USA - 2097 | NaN | NaN | NaN | P - 12 | NaN | 3.0 - 1336 | 233.0 - 114 | NaN | NaN |
 
+> This was created from a 
+[Kaggle Dataset - Hotel Booking Demand](https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand)
+
 ## Final Thoughts
 This is my current solution to this problem. Any alternative suggestions and enhancements are always welcome.
 
