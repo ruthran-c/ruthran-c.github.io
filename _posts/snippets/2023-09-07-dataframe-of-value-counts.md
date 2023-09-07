@@ -5,12 +5,27 @@ tags: [python, pandas, dataframe]
 date: 2023-09-07 15:05:00 +0530
 ---
 
+## The Problem
+We have data organised for analysis in a DataFrame. 
+
+1. The first step is to figure out the quantitative and categorical columns.
+2. Among the categorical columns, we're always interested to know what possible values 
+   each column could have.
+   - We can figure this out for each column through `value_counts()`.
+3. Applying `value_counts` to each `data.column` (Series) is a repetitive task 
+   that takes up way too space and time.
+
+### Solution
+An organised visual representation of each column's unique values in one place.
+> Make a DataFrame of `value_counts()` and print it for review.
+{: .prompt-tip}
+
 
 ## Code
 ```python
 def value_counts_df(
         data: pd.DataFrame,
-        cols: list
+        cols: list,
 )-> pd.DataFrame:
     """
     # Create a Dataframe of column value_counts().
@@ -41,10 +56,10 @@ def value_counts_df(
     return df
 ```
 
-> This goes against [tidyverse rules](https://byuidatascience.github.io/python4ds/tidy-data.html#fig:tidy-structure)
-... oops 🤭.  
-But it's fine since we're using the DataFrame only for a visual review 
-of the data distribution.
+> This goes against [tidyverse](https://byuidatascience.github.io/python4ds/tidy-data.html#fig:tidy-structure)
+rules... oops 🤭.  
+But it's fine since we're organising the data not for analysis 
+but just for a visual review.
 {: .prompt-warning}
 
 ## Output
@@ -63,3 +78,9 @@ of the data distribution.
 | 9 | NaN | NaN | NaN | NLD - 2104 | NaN | NaN | L - 6 | K - 279 | NaN | 8.0 - 1514 | 405.0 - 119 | NaN | NaN |
 | 10 | NaN | NaN | NaN | USA - 2097 | NaN | NaN | NaN | P - 12 | NaN | 3.0 - 1336 | 233.0 - 114 | NaN | NaN |
 
+## Final Thoughts
+This is my current solution to this problem. Any alternative suggestions and enhancements are always welcome.
+
+Maybe you have a more elegant way to go about this part of the data exploration process?
+
+I'm all ears!
