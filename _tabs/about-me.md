@@ -11,3 +11,22 @@ so bear with me for a bit. 🙌
 Hi there! 👋 
 
 Thank you for checking out my site.
+
+I'm Ruthran Chandrasekar, a healthcare data scientist. 
+
+[//]: # (I built this site to act as an online repository for everything new I learn in)
+
+[//]: # (## Experiences)
+
+[//]: # ()
+[//]: # (### Duke University)
+
+[//]: # (I went to Du)
+
+[//]: # ()
+[//]: # (### Hospital IQ Inc.)
+
+[//]: # ()
+[//]: # (### LeanTaaS Inc.)
+
+
