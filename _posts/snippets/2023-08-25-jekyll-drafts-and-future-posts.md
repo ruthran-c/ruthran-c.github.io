@@ -1,7 +1,7 @@
 ---
 title: View Jekyll Drafts and Future Posts
 date: 2023-08-25 00:05:00 +0530
-categories: [Snippets, Recall]
+categories: [Snippets, TIL]
 tags: [jekyll, code]
 ---
 

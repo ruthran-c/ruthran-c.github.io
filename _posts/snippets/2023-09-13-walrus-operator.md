@@ -1,7 +1,7 @@
 ---
 title: The Walrus Operator in Python 3.8
 date: 2023-09-13 01:27:00 +0530
-categories: [Snippets]
+categories: [Snippets, TIL]
 tags: [python]
 ---
 
