@@ -1,5 +1,5 @@
 ---
-title: The power of actionable intelligence through AI
+title: Actionable Intelligence for Perioperative Care
 date: 2023-04-12 00:00:00 +0530
 categories: [Blog]
 tags: []
