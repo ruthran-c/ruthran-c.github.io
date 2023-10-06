@@ -1,6 +1,6 @@
 ---
 title: Jupyter notebook customizations
-date: 2023-10-05 16:41:00
+date: 2023-10-05 16:41:00 -0400
 categories: [Snippets, Toolkit]
 tags: [python]
 ---
