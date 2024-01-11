@@ -5,6 +5,7 @@ categories: [Snippets, Code]
 tags: [python, code]
 ---
 
+## Code
 ```python
 import functools
 
