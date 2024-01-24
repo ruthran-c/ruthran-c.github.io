@@ -1,8 +1,8 @@
 ---
 title: Itertools Module
 date: 2024-01-22 171300 -0500
-categories: [Problem Set, Math]
-tags: [math, probability]
+categories: [TIL]
+tags: [python]
 ---
 
 
