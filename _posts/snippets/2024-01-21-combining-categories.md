@@ -2,7 +2,7 @@
 title: Combining categories using masks
 #date: 2024-01-21 09:30:00 -0500
 categories: [Snippets, Code]
-tags: [python, pandas, eda]
+tags: [python, pandas, EDA]
 ---
 When working with categorical data, simplifying the analysis is often beneficial 
 by either combining or eliminating less significant categories. 
@@ -62,5 +62,5 @@ Other       210
 Name: Vote, dtype: int64
 ```
 
-## References:
+## References
 [^stack]: [StackExchage](https://stackoverflow.com/questions/42276396/typeerror-cannot-do-inplace-boolean-setting-on-mixed-types-with-a-non-np-nan-va)
