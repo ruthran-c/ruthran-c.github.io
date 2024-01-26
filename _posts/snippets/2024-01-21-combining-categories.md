@@ -49,8 +49,7 @@ election_data = stack.unstack()
 
 Or, you could go with the normal `pd.replace` route:
 ```python
-votes = election_data['Vote'].value_counts()
-df = df.replace(votes, 'Other')
+df = df.replace(other, 'Other')
 ```
 
 The `value_counts()` then becomes:
