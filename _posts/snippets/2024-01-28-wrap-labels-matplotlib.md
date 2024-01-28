@@ -23,8 +23,10 @@ def wrap_labels(ax, width, break_long_words=False):
 This provides clearer visualizations of our data.
 
 ## Plots
-|                                           Before Text Wrap                                           |                                           After Text Wrap                                            |
-|:----------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------:|
-| ![text_wrapped_dark](20240128-light1.png){: .light}![text_wrapped_dark](20240128-dark1.png){: .dark} | ![text_wrapped_dark](20240128-dark2.png){: .dark}![text_wrapped_dark](20240128-light2.png){: .light} |
+
+| Before Text Wrap | After Text Wrap |
+|--|--|
+| ![text_wrapped_dark](20240128-light1.png){: .light} ![text_wrapped_dark](20240128-dark1.png){: .dark} | ![text_wrapped_dark](20240128-dark2.png){: .dark} ![text_wrapped_dark](20240128-light2.png){: .light} |
+
 
 
