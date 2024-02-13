@@ -3,6 +3,7 @@ title: Faster import of data into MySQL
 date: 2024-02-12 23:35:00 -0500
 categories: [Wiki]
 tags: [mysql, sql, workbench, homebrew, pics]
+pin: true
 ---
 
 Importing data from a `.csv` file into a MySQL database using Workbench's data import wizard is 
