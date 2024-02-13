@@ -2,7 +2,7 @@
 title: Dark-Mode Images for Chirpy Jekyll Pages
 date: 2023-08-23 10:14:00 +0530
 categories: [Snippets, Code]
-tags: [code, python, plots]
+tags: [code, python, plots, pics]
 ---
 
 ## Background
@@ -46,7 +46,7 @@ You get a plot that seamlessly merges into the background while the facecolor be
 comes from the `dark_background` style. You can uncomment`ax.set_facecolor()` 
 to override a lighter shade for the graph.
 
-![Dark mode plot](20230824-colorShade-dark1.png){: .dark }_Image only displayed in dark mode_
+![Dark mode plot](/snippets/20230824-colorShade-dark1.png){: .dark }_Image only displayed in dark mode_
 
 ### Multiple images side-by-side
 When you want multiple images side by side, we need to use tables and set each image as a cell. 
@@ -54,9 +54,9 @@ When you want multiple images side by side, we need to use tables and set each i
 Chirpy has customized different colors for the cell blocks. Hence we make small changes 
 to the plot's facecolor. The best fit I found to date is `#2A2F35` for `plt.figure()`
 
-|                                       `dark_background`                                       |                              `ax.set_facecolor((.44, .45, .45))`                               |
-|:---------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------:|
-| ![Dark mode plot](20230824-colorShade-dark3.png){: .dark }_Image only displayed in dark mode_ | ![Dark mode plot](20230824-colorShade-dark4.png){: .dark }_Image only displayed in dark mode_  |
+|                                            `dark_background`                                            |                              `ax.set_facecolor((.44, .45, .45))`                               |
+|:-------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------:|
+| ![Dark mode plot](/snippets/20230824-colorShade-dark3.png){: .dark }_Image only displayed in dark mode_ | ![Dark mode plot](/snippets/20230824-colorShade-dark4.png){: .dark }_Image only displayed in dark mode_  |
 
 
 ## Learn More

@@ -29,3 +29,6 @@ end
 
 # Emoji plugin for Jekyll
 gem 'jemoji'
+
+# Jupyter notebook support for Jekyll
+gem "jekyll-jupyter-notebook"

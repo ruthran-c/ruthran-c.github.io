@@ -2,7 +2,7 @@
 title: Wrap Graph Labels in Matplotlib
 date: 2024-01-28 120000 -0500
 categories: [Snippets, Code]
-tags: [python, matplotlib, seaborn, code]
+tags: [python, matplotlib, seaborn, code, pics]
 ---
 
 Overlapping text labels on the x-axis is a common challenge during visualizations. 
@@ -24,9 +24,9 @@ This provides clearer visualizations of our data.
 
 ## Plots
 
-| Before Text Wrap | After Text Wrap |
-|--|--|
-| ![text_wrapped_dark](20240128-light1.png){: .light} ![text_wrapped_dark](20240128-dark1.png){: .dark} | ![text_wrapped_dark](20240128-dark2.png){: .dark} ![text_wrapped_dark](20240128-light2.png){: .light} |
+| Before Text Wrap                                                                                                          | After Text Wrap                                                                                                           |
+|---------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
+| ![text_wrapped_dark](/snippets/20240128-light1.png){: .light} ![text_wrapped_dark](/snippets/20240128-dark1.png){: .dark} | ![text_wrapped_dark](/snippets/20240128-dark2.png){: .dark} ![text_wrapped_dark](/snippets/20240128-light2.png){: .light} |
 
 
 
