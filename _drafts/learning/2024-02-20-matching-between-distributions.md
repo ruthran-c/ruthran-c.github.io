@@ -7,10 +7,11 @@ tags: [python]
 
 The capability to quantify the disparity between a **distribution P** and a 
 reference **distribution Q** has many useful applications across 
-machine learning and data science.
+machine learning and data science:
 
 1. Categorical and numerical data drift in ML models.
-2. The **_matching_** of the template to the actual scheduled appointments.
+2. The **_matching_** of a real data distribution with a reference (scheduling templates).
+3. Information loss when replacing real data with a statistical approximation (normal distribution).
 
 
 ## References
