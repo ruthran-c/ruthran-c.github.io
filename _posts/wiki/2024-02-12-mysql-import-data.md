@@ -52,7 +52,8 @@ enclosed by '"'
 lines terminated by '\n'
 ignore 1 rows;
 ```
-## Error: file request rejected/ loading local data disabled 
+## Errors
+### file request rejected/ loading local data disabled 
 > If the `local_infile` option is not enabled in both the client and server sides, 
 > we'll encounter an ERROR 2068 or 3950 with an import fail.
 {: .prompt-warning}
@@ -75,9 +76,30 @@ So we can edit the existing MySQL connection in Workbench to allow LOCAL capabil
 3. `USE database`
 4. `LOAD DATA INFILE ...;`
 
-| | |
-|----------------------------------------------------|-----------------------------------|
-|![edit connections](wiki/20240212-connections.png) | ![add OPT_LOCAL_INFILE](wiki/20240212-infile.png)|
+|                                                                     |                                                                    |
+|---------------------------------------------------------------------|--------------------------------------------------------------------|
+| ![edit connections](wiki/20240212-connections_light.png){: .light } | ![add OPT_LOCAL_INFILE](wiki/20240212-infile_light.png){: .light } |
+| ![edit connections](wiki/20240212-connections_dark.png){: .dark }   | ![add OPT_LOCAL_INFILE](wiki/20240212-infile_dark.png){: .dark }   |
+
+### Unhandled exception: 'ascii' codec can't decode byte 0xef in position 0
+> This usually occurs when your `.csv` file is the result of an export from another application
+> such as Google Sheets or Tableau Prep. 
+{: .prompt-info}
+
+Force convert the file to `utf-8` or `ASCII` to forego the problem. 
+Most modern text editors can do this.[^errorcodec]
+
+I use [BBEdit](https://www.barebones.com/products/bbedit/), which has a nice **Document Text Encoding**
+option on the bottom and a **Reopen Using Encoding** option under **Files**. Convert the encoding using 
+either option and save the file anew.
+
+This can be imported into MySQL Workbench without issues.
+
+|                                                                   |                                                              |
+|-------------------------------------------------------------------|--------------------------------------------------------------|
+| ![bbedit_file_options](wiki/20240212-bbedit1_light.png){: .light} | ![bbedit_encoding](wiki/20240212-bbedit2_light.png){: .light} |
+| ![bbedit_file_options](wiki/20240212-bbedit1_dark.png){: .dark}  | ![bbedit_encoding](wiki/20240212-bbedit2_dark.png){: .dark}  |
+
 
 ## Final Thoughts
 And voilà, this method of loading data to a table is superfast in mysql. 
@@ -98,3 +120,4 @@ Thanks for reading! Hope this helps.
 [^error2068]: [Error code 2068: file requested rejected due to restrictions on access with root user.](https://stackoverflow.com/questions/63264360/error-code-2068-file-requested-rejected-due-to-restrictions-on-access-with-root)
 [^error3950]: [ERROR: Loading local data is disabled - this must be enabled on both the client and server sides.](https://stackoverflow.com/questions/59993844/error-loading-local-data-is-disabled-this-must-be-enabled-on-both-the-client)
 [^speed]:[mysqlimport speed.](https://stackoverflow.com/questions/51901271/mysqlimport-speed-tab-delimited-dump-files-vs-sql-format-files)
+[^errorcodec]: [MySQL Error: Unhandled exception: 'ascii' codec can't decode byte 0xef in position 0: ordinal not in range(128)](https://stackoverflow.com/questions/71992180/mysql-error-unhandled-exception-ascii-codec-cant-decode-byte-0xef-in-positi)
