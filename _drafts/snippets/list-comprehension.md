@@ -1,6 +1,6 @@
 ---
 title: List Comprehensions - All you need to know
-categories: [Learning]
+categories: [TIL]
 ---
 
 ## Resources

@@ -1,9 +1,8 @@
 ---
 title: Itemgetter & 'key' arg in Max() 
-categories: [Snippes, TIL]
+categories: [Snippets]
+tags: [python, toolkit]
 ---
-
-
 
 ```python
 max(

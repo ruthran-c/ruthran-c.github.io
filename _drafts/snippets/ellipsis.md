@@ -1,7 +1,7 @@
 ---
 title: Ellipsis the great placeholder...
-categories: [Snippets, Recall]
-tags: [python]
+categories: [Snippets, TIL]
+tags: [python, toolkit]
 ---
 
 ## Read More

@@ -1,7 +1,7 @@
 ---
 title: Quantifying the Comparison and Divergence of 2 Distributions
 date: 2024-02-20 233500 -0500
-categories: [Learn, Data Science]
+categories: [TIL, Data Science]
 tags: [python]
 ---
 
