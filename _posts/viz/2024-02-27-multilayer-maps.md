@@ -15,7 +15,7 @@ This is by stacking multiple geo encoded maps one on top of the other in a dashb
 map's visibility using parameters.
 
 ## Case Objective
-We have a tree census dataset of New York City's 5 boroughs. Each tree has location information on it's
+We have a tree census dataset of New York City's 5 boroughs. Each tree has location information:
 1. Borough.
 2. Zip Code.
 3. NTA - Neighborhood tabulation area.
@@ -37,7 +37,7 @@ The objective is to build a 3-layer interactive map using Tableau.
 {: .prompt-info}
 
 ### Map 1 - The Boroughs
-The map contains the Boroughs.
+The map contains NYC's 5 Boroughs.
 
 #### Parameter - Borough
 This parameter is populated only when a point on the Borough map is selected and otherwise becomes `empty`.
@@ -50,7 +50,7 @@ This parameter is populated only when a point on the Borough map is selected and
 **DZV - Dynamic Zone Visibility**.
 The Borough map should be displayed when:
  - any point on the final map (NTA map) is selected, or
- - when any point outside one of the maps is selected.
+ - any area outside one of the maps is selected.
 ```
 (
     [Borough Parameter] = ''
