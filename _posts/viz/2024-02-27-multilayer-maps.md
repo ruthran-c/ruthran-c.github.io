@@ -1,5 +1,5 @@
 ---
-title: Multi-layer Dynamic Zone Visibility Maps in Tableau
+title: Multi-layer Interactive Maps in Tableau
 date: 2024-02-27 15:50:00 -0500
 categories: [Visuals]
 tags: [tableau, dataviz]
