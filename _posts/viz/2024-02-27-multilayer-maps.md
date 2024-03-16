@@ -52,16 +52,14 @@ The Borough map should be displayed when:
  - any point on the final map (NTA map) is selected, or
  - any area outside one of the maps is selected.
 ```
-(
-    [Borough Parameter] = ''
+([Borough Parameter] = ''
     AND 
     [Zip Parameter] = ''
     AND
     [NTA Parameter] != ''
-)
+) 
 OR
-(
-    [Borough Parameter] = ''
+([Borough Parameter] = ''
     AND 
     [Zip Parameter] = ''
     AND 
