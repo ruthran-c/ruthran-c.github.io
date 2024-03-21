@@ -1,7 +1,7 @@
 ---
 title: Serializing Python Objects using Pickle
 date: 2024-03-15 11:45:00 -0500
-categories: [Python]
+categories: [Wiki]
 tags: [python]
 ---
 
